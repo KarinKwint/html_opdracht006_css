@@ -7,31 +7,24 @@
     padding-left: 5px;
     padding-right: 5px;
     padding: 7px 5px 7px 5px;
-    margin: 3%;
-    width:75%
+    margin: 20px;
 }
 .box-2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border: 7px midnightblue solid;
     background-color: lightyellow;
     padding: 5px;
-    margin: 3%;
-    width:75%
+    margin: 20px;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: lightslategray;
+.center {
+    margin: 0 auto;
+    width: 500px;
+    
+}
+.navigation li {
+    display: inline;
+    margin: 5px;
+    padding: 10px;
+    background-color: lightgray;
     }
-    li {
-    float: left;
-    }
-    li a {
-        display: block;
-        padding: 9px;
-    }
-    li a:hover {
-        background-color: limegreen;
-    }
+
